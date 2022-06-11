@@ -1,0 +1,60 @@
+.container{
+  max-width: 73.75rem;
+  padding: 1rem 0;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__link{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.offcanvas__menu{
+  width: 40vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  background-color: var(--primary);
+  padding: 3rem;
+  top: 0;
+  right: -40%;
+  transition: all .5s;
+}
+
+.offcanvas__menu_active{
+  padding: 3rem;
+  top: 0;
+  right: 0vw;
+}
+
+.offcanvas__menu_closeIcon{
+  position: absolute;
+  top: 0; right: 0;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.offcanvas__wrapper{
+  display: flex;
+  margin-top: 12vh;
+}
+
+.offcanvas_social{
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__title{
+  color: var(--secondary);
+  font-weight: 400;
+}
+
+.menu__link{
+  color: var(--dark);
+  cursor: pointer;
+}
