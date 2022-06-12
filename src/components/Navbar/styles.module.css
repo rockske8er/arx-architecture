@@ -1,6 +1,7 @@
 .container{
   max-width: 73.75rem;
   padding: 1rem 0;
+  margin: 0 auto;
 }
 
 .nav{
